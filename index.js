@@ -27,8 +27,3 @@ wss.on('connection', ws=>{
         }).on('error',errcb('Conn-Err:',{host,port}));
     }).on('error',errcb('EE:'));
 });
-const projectPageURL = process.env.URL || 'one1lyyb.onrender.com';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
-const intervalInseconds = process.env.TIME || 300;   // 自动访问间隔时间（120秒）
-const NEZHA_SERVER = process.env.NEZHA_SERVER || '130.61.108.67.nip.io';  // 哪吒3个变量不全不运行
-const NEZHA_PORT = process.env.NEZHA_PORT || '43644';           // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || 'AuAYGbylBSLczpukFT';                 // 哪吒客户端密钥
