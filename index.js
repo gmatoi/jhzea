@@ -1,6 +1,6 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 运行文件夹，节点文件存放目录
 const projectPageURL = process.env.URL || 'yyb1.onrender.com/';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
-const intervalInseconds = process.env.TIME || 1800;   // 自动访问间隔时间（120秒）
+const intervalInseconds = process.env.TIME || 600;   // 自动访问间隔时间（120秒）
 const UUID = process.env.UUID || 'b10697ab-b6b5-49ce-ae19-d572f4a0c251';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '130.61.108.67.nip.io';  // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '43644';           // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
