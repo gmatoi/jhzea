@@ -4,7 +4,7 @@
   "description": "nodejs",
   "main": "index.js",
   "author": "eooce",
-  "repository": "https://github.com/eooce/nodejs-argo",
+  "repository": "eooce",
   "license": "MIT",
   "private": false,
   "scripts": {
