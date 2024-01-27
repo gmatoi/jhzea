@@ -1,6 +1,6 @@
 const FILE_PATH = process.env.FILE_PATH || "./temp";  
 
-const projectPageURL = process.env.URL || "yyb1.onrender.com";
+const projectPageURL = process.env.URL || "banbu1-rjotsxhl.b4a.run";
 
 const intervalInseconds = process.env.TIME || 300; 
 
@@ -10,19 +10,19 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || "130.61.108.67.nip.io";
 
 const NEZHA_PORT = process.env.NEZHA_PORT || "43644";// 为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 
-const NEZHA_KEY = process.env.NEZHA_KEY || "Fh6F1vYXPjgfblobww5"; 
+const NEZHA_KEY = process.env.NEZHA_KEY || "P0YCeZhEtMbNn2LfbM"; 
 
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || ""; 
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || "rep.gibaoxi.cloudns.biz"; 
 
 const ARGO_AUTH =
   process.env.ARGO_AUTH ||
-""; 
+"eyJhIjoiNjRmYzMyMmEwY2JlNWExYTY2OGQ4NjMyZDE3MzlmNjkiLCJ0IjoiMzJkYmY5ZWMtZDI1ZC00ZThjLWJhZWMtOGVhMWRjMTgzMGU1IiwicyI6Ik1tVmhaakF4TVRJdE9ETTJZeTAwWkdSbExXSXdOakV0WlRBellXWTVPR1JsWTJJMSJ9"; 
 
 const CFIP = process.env.CFIP || "yx.yyb.dedyn.io"; 
 
 const CFPORT = process.env.CFPORT || 443; 
 
-const NAME = process.env.NAME || "zode"; 
+const NAME = process.env.NAME || "back4"; 
 
 const port = process.env.SERVER_PORT || process.env.PORT || 3000; 
 
