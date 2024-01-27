@@ -10,19 +10,19 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || "130.61.108.67.nip.io";
 
 const NEZHA_PORT = process.env.NEZHA_PORT || "43644";// 为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 
-const NEZHA_KEY = process.env.NEZHA_KEY || "Fh6FvYXPjgfblobww5"; 
+const NEZHA_KEY = process.env.NEZHA_KEY || "Fh6F1vYXPjgfblobww5"; 
 
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || "ren.gibaoxi.cloudns.biz"; 
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || ""; 
 
 const ARGO_AUTH =
   process.env.ARGO_AUTH ||
-"eyJhIjoiNjRmYzMyMmEwY2JlNWExYTY2OGQ4NjMyZDE3MzlmNjkiLCJ0IjoiNTBmZTg3M2UtNDNiZS00ZDRiLWJlNmEtNTdlNmJhNGI5YjZiIiwicyI6Ill6YzNNRFE1WVRBdE4yRTJZaTAwTkRNMUxUaGpNR1F0T1dGalptTmpOMlpqT1RneiJ9"; 
+""; 
 
 const CFIP = process.env.CFIP || "yx.yyb.dedyn.io"; 
 
 const CFPORT = process.env.CFPORT || 443; 
 
-const NAME = process.env.NAME || "code"; 
+const NAME = process.env.NAME || "zode"; 
 
 const port = process.env.SERVER_PORT || process.env.PORT || 3000; 
 
