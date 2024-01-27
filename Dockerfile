@@ -8,6 +8,6 @@ EXPOSE 3000
 
 RUN apt update -y &&\
     chmod +x index.js &&\
-    npm install -g npm 
+    npm install 
     
 CMD ["node", "index.js"]
